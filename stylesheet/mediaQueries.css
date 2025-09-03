@@ -29,9 +29,9 @@
   }
   #hero{
     background-position: right;
-    background-image: url(/assets/images/bg-org-2-resp.jpg);
+    background-image: url(/assets/images/mybg-resp.jpg);
     height: auto;
-    background-position: bottom;
+    background-position: top;
   }
 
   /* hero */
