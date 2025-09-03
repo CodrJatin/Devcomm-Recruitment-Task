@@ -1,0 +1,77 @@
+
+/* responsive */
+
+
+@media screen and (max-width: 900px) {
+  /* footer */
+  footer .footer-text{
+      padding-bottom: 5rem;
+  }
+  
+  /* navbar */
+  .navbar{
+    bottom: 1rem;
+    /* border-radius: 10rem; */
+    justify-content: center;
+  }
+  .navbar.scrolled{
+    background-color: #00000000;
+
+  }
+  .navbar .nav-ul{
+    width: auto;
+    background-color: #264653b7;
+    box-shadow: 0 0 10px #ffc288;
+    border-radius: 2rem;
+  }
+  *{
+    color: white;
+  }
+  #hero{
+    background-position: right;
+    background-image: url(/assets/images/bg-org-2-resp.jpg);
+    height: auto;
+    background-position: bottom;
+  }
+
+  /* hero */
+  .hero-text{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
+  }
+  h1.hero-text-2{
+    font-size: 8rem;
+  }
+  .hero-text div{
+    top: 10rem;
+  }
+  
+
+  /* about */
+  .about-container{
+    flex-direction: column;
+  }
+  #about{
+    padding: 0;
+  }
+  #about img{
+    width: 50vw;
+    margin-bottom: 1rem;
+  }
+  #about .about-text{
+    max-width: 90%;
+  }
+  #about .about-info{
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+    .nav-a .li-txt{
+      display: none;
+    }
+}
